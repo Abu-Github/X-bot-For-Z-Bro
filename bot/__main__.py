@@ -163,29 +163,7 @@ help_string_telegraph = f'''<br>
 
 
 sudo_help_string = f'''<br><br><b> Sudo/Owner Only Commands </b><br><br>
-<b>/{BotCommands.PingCommand}</b>: Check how long it takes to Ping the Bot
-<br><br>
-<b>/{BotCommands.AuthorizeCommand}</b>: Authorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
-<br><br>
-<b>/{BotCommands.UnAuthorizeCommand}</b>: Unauthorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
-<br><br>
-<b>/{BotCommands.AuthorizedUsersCommand}</b>: Show authorized users (Only Owner & Sudo)
-<br><br>
-<b>/{BotCommands.AddSudoCommand}</b>: Add sudo user (Only Owner)
-<br><br>
-<b>/{BotCommands.RmSudoCommand}</b>: Remove sudo users (Only Owner)
-<br><br>
-<b>/{BotCommands.RestartCommand}</b>: Restart and update the bot
-<br><br>
-<b>/{BotCommands.LogCommand}</b>: Get a log file of the bot. Handy for getting crash reports
-<br><br>
-<b>/{BotCommands.ShellCommand}</b>: Run commands in Shell (Only Owner)
-<br><br>
-<b>/{BotCommands.ExecHelpCommand}</b>: Get help for Executor module (Only Owner)
-<br><br>
-<b>/{BotCommands.AddleechlogCommand}</b>: Add Leech Log
-<br><br>
-<b>/{BotCommands.RmleechlogCommand}</b>: Remove Leech Log
+
 '''
 help_string = f'''
 Bro, Need Any Help!!
