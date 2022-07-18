@@ -20,8 +20,6 @@ class _BotCommands:
         self.ListCommand = getCommand('LIST_COMMAND', f'list{CMD_INDEX}')
         self.SearchCommand = getCommand('SEARCH_COMMAND', f'search{CMD_INDEX}')
         self.StatusCommand = getCommand('STATUS_COMMAND', f'status{CMD_INDEX}')
-        self.AuthorizedUsersCommand = getCommand('USERS_COMMAND', f'users{CMD_INDEX}')
-        self.AuthorizeCommand = getCommand('AUTH_COMMAND', f'authorize{CMD_INDEX}')
         self.UnAuthorizeCommand = getCommand('UNAUTH_COMMAND', f'unauthorize{CMD_INDEX}')
         self.AddSudoCommand = getCommand('ADDSUDO_COMMAND', f'addsudo{CMD_INDEX}')
         self.RmSudoCommand = getCommand('RMSUDO_COMMAND', f'rmsudo{CMD_INDEX}')
@@ -38,8 +36,6 @@ class _BotCommands:
         self.QbUnzipMirrorCommand = getCommand('QBUNZIP_COMMAND', f'qbunzipmirror{CMD_INDEX}')
         self.QbZipMirrorCommand = getCommand('QBZIP_COMMAND', f'qbzipmirror{CMD_INDEX}')
         self.DeleteCommand = getCommand('DELETE_COMMAND', f'del{CMD_INDEX}')
-        self.ShellCommand = getCommand('SHELL_COMMAND', f'shell{CMD_INDEX}')
-        self.ExecHelpCommand = getCommand('EXEHELP_COMMAND', f'exechelp{CMD_INDEX}')
         self.LeechSetCommand = getCommand('LEECHSET_COMMAND', f'leechset{CMD_INDEX}')
         self.SetThumbCommand = getCommand('SETTHUMB_COMMAND', f'setthumb{CMD_INDEX}')
         self.LeechCommand = getCommand('LEECH_COMMAND', f'leech{CMD_INDEX}')
@@ -55,8 +51,6 @@ class _BotCommands:
         self.RssSubCommand = getCommand('RSSSUB_COMMAND', f'rsssub{CMD_INDEX}')
         self.RssUnSubCommand = getCommand('RSSUNSUB_COMMAND', f'rssunsub{CMD_INDEX}')
         self.RssSettingsCommand = getCommand('RSSSET_COMMAND', f'rssset{CMD_INDEX}')
-        self.EvalCommand = f'eval{CMD_INDEX}'
-        self.ExecCommand = f'exec{CMD_INDEX}'
         self.ClearLocalsCommand = f'clearlocals{CMD_INDEX}'
         self.AddleechlogCommand = getCommand('ADDLEECHLOG_COMMAND', f'addleechlog{CMD_INDEX}')
         self.RmleechlogCommand = getCommand('RMLEECHLOG_COMMAND', f'rmleechlog{CMD_INDEX}')
